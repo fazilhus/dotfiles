@@ -10,7 +10,6 @@ return {
   require 'kickstart.plugins.todo-comments',
   require 'kickstart.plugins.mini',
   require 'kickstart.plugins.treesitter',
-  require 'kickstart.plugins.debug',
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
