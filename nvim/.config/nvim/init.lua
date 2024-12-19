@@ -1,4 +1,7 @@
--- NVIM settings, remaps and plugins
-require 'custom'
--- Kickstart config
-require 'kickstart'
+require 'options'
+
+require 'keymaps'
+
+require 'lazy-bootstrap'
+
+require 'lazy-plugins'

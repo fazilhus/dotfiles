@@ -1,6 +1,5 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-
 vim.g.have_nerd_font = true
 
 vim.opt.number = true
@@ -30,10 +29,6 @@ vim.opt.smartcase = true
 
 vim.opt.signcolumn = 'yes'
 
-vim.opt.updatetime = 50
-
-vim.opt.timeoutlen = 100
-
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
@@ -49,4 +44,3 @@ vim.opt.scrolloff = 5
 vim.opt.colorcolumn = '80'
 
 vim.opt.hlsearch = true
-vim.opt.incsearch = true
