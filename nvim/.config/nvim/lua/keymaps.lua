@@ -49,4 +49,5 @@ vim.keymap.set('n', '<leader>j', '<cmd>lprev<CR>zz')
 
 vim.keymap.set('n', '<leader>rw', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+vim.keymap.set('n', '-', '<cmd>:Oil<CR>', { desc = 'Open cwd in Oil' })
 -- vim: ts=2 sts=2 sw=2 et
